@@ -1,0 +1,55 @@
+[0.088s] Invoking command in '/home/jxf/robotarm/build/robotarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jxf/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jxf/robotarm/robotarm -DCMAKE_INSTALL_PREFIX=/home/jxf/robotarm/install/robotarm
+[0.281s] -- The C compiler identification is GNU 11.4.0
+[0.429s] -- The CXX compiler identification is GNU 11.4.0
+[0.452s] -- Detecting C compiler ABI info
+[0.706s] -- Detecting C compiler ABI info - done
+[0.725s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.726s] -- Detecting C compile features
+[0.727s] -- Detecting C compile features - done
+[0.735s] -- Detecting CXX compiler ABI info
+[0.997s] -- Detecting CXX compiler ABI info - done
+[1.016s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.017s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.032s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.354s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.626s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.777s] -- Added test 'lint_cmake' to check CMake code style
+[1.780s] -- Added test 'xmllint' to check XML markup files
+[1.784s] -- Configuring done
+[1.787s] -- Generating done
+[1.787s] -- Build files have been written to: /home/jxf/robotarm/build/robotarm
+[1.792s] Invoked command in '/home/jxf/robotarm/build/robotarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jxf/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jxf/robotarm/robotarm -DCMAKE_INSTALL_PREFIX=/home/jxf/robotarm/install/robotarm
+[1.795s] Invoking command in '/home/jxf/robotarm/build/robotarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jxf/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jxf/robotarm/build/robotarm -- -j16 -l16
+[1.930s] Invoked command in '/home/jxf/robotarm/build/robotarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jxf/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jxf/robotarm/build/robotarm -- -j16 -l16
+[2.067s] Invoking command in '/home/jxf/robotarm/build/robotarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jxf/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jxf/robotarm/build/robotarm
+[2.100s] -- Install configuration: ""
+[2.100s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/config
+[2.101s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/config/joint_names_robotarm.yaml
+[2.101s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/meshes
+[2.101s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/meshes/Link1.STL
+[2.119s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/meshes/Link3.STL
+[2.126s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/meshes/Link6.STL
+[2.133s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/meshes/Link2.STL
+[2.141s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/meshes/base_link.STL
+[2.152s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/meshes/Link5.STL
+[2.156s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/meshes/Link4.STL
+[2.162s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/urdf
+[2.162s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/urdf/robotarm.csv
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/urdf/robotarm.urdf
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/ament_index/resource_index/package_run_dependencies/robotarm
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/ament_index/resource_index/parent_prefix_path/robotarm
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/environment/ament_prefix_path.sh
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/environment/ament_prefix_path.dsv
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/environment/path.sh
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/environment/path.dsv
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/local_setup.bash
+[2.163s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/local_setup.sh
+[2.164s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/local_setup.zsh
+[2.164s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/local_setup.dsv
+[2.164s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/package.dsv
+[2.164s] -- Installing: /home/jxf/robotarm/install/robotarm/share/ament_index/resource_index/packages/robotarm
+[2.164s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/cmake/robotarmConfig.cmake
+[2.164s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/cmake/robotarmConfig-version.cmake
+[2.164s] -- Installing: /home/jxf/robotarm/install/robotarm/share/robotarm/package.xml
+[2.167s] Invoked command in '/home/jxf/robotarm/build/robotarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jxf/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jxf/robotarm/build/robotarm
